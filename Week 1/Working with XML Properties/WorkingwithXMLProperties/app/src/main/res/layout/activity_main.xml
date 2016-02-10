@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="uk.ac.qub.workingwithxmlproperties.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is Monospace"
+        android:typeface="monospace"
+        android:textStyle="normal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is Sans"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is Serif"
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is Normal"
+        android:typeface="normal"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A light blue colour"
+        android:typeface="monospace"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:textColor="#00ccff"
+        android:textColorLink="#8DE67F"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="My Contacts"
+        android:drawableRight="@mipmap/ic_launcher"
+        android:drawablePadding="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:drawablePadding="8dp"
+        />
+
+    <EditText
+        android:id="@+id/et_simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:digits="01"
+        android:maxLength="5"
+        />
+
+
+    <EditText
+        android:id="@+id/et_simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date|datetime"
+        android:singleLine="true"
+        android:lines="1"
+        />
+
+
+    <EditText
+        android:id="@+id/et_simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:lines="1"
+        android:textColorHighlight="#7cff88"
+        android:hint="joe@smith.com"
+        />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:src="@drawable/phone_on"/>
+
+</LinearLayout>
