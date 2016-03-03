@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ToastBasic</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_settings">Settings</string>
+    <string name="button_label">Show message</string>
+    <string name="image_content">Image</string>
+    <string name="FirstNameHint">Please enter your First Name</string>
+    <string name="SurnameHint">Please enter your Surname</string>
+    <string name="ButtonText">Entered Detail</string>
+</resources>
